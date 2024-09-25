@@ -1,0 +1,84 @@
+h1 {
+  text-align: center;
+  margin-top: 2em;
+}
+form {
+  width: 100%;
+  margin: auto;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  box-sizing: border-box; /* Asegura que el padding no aumente el ancho total del elemento */
+}
+
+#botonesFinal {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  border-radius: 5px;
+
+  padding: 2px;
+}
+
+/* Estilos de alto contraste */
+body.alto-contraste {
+  background-color: #000;
+  color: #fff;
+}
+
+body.alto-contraste form {
+  color: #ffff00;
+  background-color: #000;
+}
+
+body.alto-contraste button {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+body.alto-contraste h1 {
+  color: #fff;
+  border-color: #fff;
+}
+
+body.alto-contraste a {
+  color: #000;
+}
+
+body.alto-contraste #Home {
+  background-color: #ffff00;
+}
+body.alto-contraste #Alto {
+  background-color: black;
+  border: 1px solid #ffff00;
+  color: white;
+}
+body.alto-contraste #Enviar {
+  background-color: #ffff00;
+}
+
+#Alto {
+  cursor: pointer;
+}
+#Enviar {
+  margin-top: 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#mensaje {
+  color: red;
+  font-size: small;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5em 0;
+  box-sizing: border-box;
+}
